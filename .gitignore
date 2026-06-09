@@ -239,3 +239,26 @@ checkpoints/
 .vscode/
 .idea/
 .streamlit/secrets.toml
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+
+# Local Virtual Environments
+.venv/
+venv/
+env/
+
+# Massive Datasets
+data/
+datasets/
+Driver_Drowsiness_Dataset/
+*.csv
+*.zip
+
+# Large Saved ML Models / Weights
+models/
+*.h5
+*.pth
+*.pkl
